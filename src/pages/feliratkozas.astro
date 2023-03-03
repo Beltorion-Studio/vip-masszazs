@@ -1,0 +1,63 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+---
+
+<MainLayout
+  title="Feliratkozás | VIP Masszázs Stúdió"
+  metaDescription="Feliratkozás a VIP Masszázs Stúdió szolgáltatására"
+>
+<div class="login-page-wrapper-copy">
+  <div class="login-box">
+    <div data-delay="3000" data-animation="cross" class="slider-section w-slider" data-autoplay="true"
+      data-easing="ease-in-out" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0"
+      data-nav-spacing="5" data-duration="1000" data-infinite="true">
+      <div class="w-slider-mask">
+        <div class="slide-background w-slide">
+          <div class="slider-content"><img src="images/Scene-Whiteboard1x.png" alt="" class="slider-image"></div>
+        </div>
+        <div class="slide-background w-slide">
+          <div class="slider-content"><img src="images/Scene-Wireframe1x.png" alt=""></div>
+        </div>
+        <div class="slide-background w-slide">
+          <div class="slider-content"><img src="images/Scene-Plants1x.png" alt=""></div>
+        </div>
+      </div>
+      <div class="w-slider-arrow-left"></div>
+      <div class="w-slider-arrow-right"></div>
+      <div class="slide-nav w-slider-nav w-slider-nav-invert w-round"></div>
+    </div>
+    <div class="login-section">
+      <div class="login-container w-form"><img src="images/webclip.png" alt="" class="login-image">
+        <h1 class="login-head">Hogyan kezdjünk bele a masszázs vállalkozásba?</h1>
+        <div class="text-block-3">14 év tapasztalatát osztom meg veled.<a href="#" class="login-link"></a>
+        </div>
+        <form method="post" id="email-form" name="email-form" data-name="Email Form" ms-signup="true"
+          class="memberstack-form">
+          <div class="login-row">
+            <div class="field-wrapper first-name-wrapper"><label for="node" class="login-label">Név</label><input
+                type="text" class="login-field w-input" maxlength="256" name="field" data-name="field" placeholder=""
+                ms-field="name" id="field" required=""></div>
+          </div>
+          <div class="field-wrapper"><label class="login-label">Email cím</label><input type="email"
+              class="login-field w-input" maxlength="256" name="email" data-name="Email" placeholder=""
+              ms-field="email" id="email" required=""></div><input type="submit" value="Kérem az anyagot"
+            data-wait="Kis türelmet..." class="login-button w-button">
+          <div class="terms-text">Az <a href="adatkezelesi-tajekoztato.html" class="link">adatkezelési
+              tájékoztatott</a>Az adatkezelési tájékoztatót elolvastam, a tartalmát megértettem és hozzájárulok ahhoz,
+            hogy Szigeti Mónika e.v., mint adatkezelő kezelje a megadott személyes adataimat kapcsolattartás céljából.
+          </div><label class="w-checkbox checkbox-field"><input type="checkbox" id="checkbox" name="checkbox"
+              data-name="Checkbox" class="w-checkbox-input checkbox"><span for="checkbox"
+              class="checkbox-label w-form-label">Adatkezelési tájékoztatók és
+              hozzájárulás:</span></label>
+        </form>
+        <div class="w-form-done">
+          <div>Thank you! Your submission has been received!</div>
+        </div>
+        <div class="error-message w-form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</MainLayout>
